@@ -1,0 +1,25 @@
+.footer {
+    font-family: 'var(--primaryFont)', sans-serif;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    font-weight: 500;
+    font-family: var(--primaryFont);
+    font-size: 18px;
+}
+
+.footer p span {
+    cursor: pointer;
+    font-size: 25px;
+    font-family: 'BestermindRegular';
+    color: aliceblue;
+}
+
+.footer p span:hover{
+    color: #545fc4;
+}
